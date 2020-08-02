@@ -1,0 +1,24 @@
+.position {
+    height: 40px; width: 140px; background-color: #e7b373; position: fixed; margin: 150px;
+}
+
+.header {
+    height: 5%; background-color: #a5eaa2; padding: 27px; border: 1px solid;
+}
+table {
+    border: 1px;  width: 100%;
+}
+.batt_reg {
+
+    width: 100px; padding: 4px; margin: 5px; background-color: blue; border-radius: 20px; float: right;
+}
+.batt_log{
+    width: 100px; padding: 4px; margin: 5px; background-color: blue; border-radius: 20px; float: right;
+}
+
+.displ {
+    display: inline-block; width: 25%;  background-color: aqua;  height: 100%;  vertical-align: top;
+}
+
+.batt_create{
+    width: 100px;  padding: 4px;  margin: 5px;  background-color: blue;  border-radius: 20px;  margin-top: 400px;}
