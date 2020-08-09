@@ -6,19 +6,20 @@
 </head>
 <body style="margin: 0">
 <header class="header">SiteBranding
-<button class="batt_reg">Registration </button>
+    <button class="batt_reg">Registration </button>
     <button class="batt_log">Login</button>
     </form>
 </header>
 <div class="deskt1"><br>
-    <form action="index.php" method="get">
+    <form action="http://localhost:9000/form.php?action=vvodDann" method="POST" class="form-group"  >
 
-        <li><input name="Model">ID</li><br>
-        <li><input name="Price">Model</li><br>
-        <li><input name="ID">Price</li><br>
-        <li><input name="Foto">Foto</li><br>
+        <li><input type="text" name="ID" placeholder="ID">ID</li><br>
+        <li><input type="text"  name="Model" placeholder="Model">Model</li><br>
+        <li><input type="text"  name="Price" placeholder="Price">Price</li><br>
+        <li><input type="image" name="Foto" placeholder="Foto">Foto</li><br>
+        <button class="batt_create">Create</button>
     </form>
-    <button class="batt_create">Create</button>
+
 </div><div class="deskt2">
     <table border="1">
         <tr>
@@ -31,13 +32,13 @@
             <td>1</td>
             <td>Sedan</td>
             <td>2500</td>
-            <td><img src="https://dexpenslive.blob.core.windows.net/dexrpd/AttachedPhotoAlbums/Album121/eccb1cfb-fa4b-435c-b0f2-216f63092edb.jpg"></td>
+            <td><img src="..."></td>
         </tr>
         <tr>
             <td>2</td>
             <td>Jeep</td>
             <td>3000</td>
-            <td><img src="https://dexpenslive.blob.core.windows.net/dexrpd/AttachedPhotoAlbums/Album121/034ec13b-ebbf-4810-91bb-4e61d0326300.jpg"></td>
+            <td><img src=...></td>
         </tr>
     </table></div>
 </body>
