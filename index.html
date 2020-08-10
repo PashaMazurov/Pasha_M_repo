@@ -1,56 +1,44 @@
 <html>
 
 <head>
+    <style>html { overflow-y: hidden; }</style>
     <link rel="stylesheet" href="style.css">
 </head>
 <body style="margin: 0">
 <header class="header">SiteBranding
-<button class="batt_reg">Registration </button>
+    <button class="batt_reg">Registration </button>
     <button class="batt_log">Login</button>
-
     </form>
 </header>
-<div style="
-    display: inline-block;
-    width: 25%;
-    background-color: aqua;
-    height: 100%;
-    vertical-align: top;
-"><br>
-    <form action="index.php" method="get">
+<div class="deskt1"><br>
+    <form action="http://localhost:9000/form.php?action=vvodDann" method="POST" class="form-group"  >
 
-        <li><input name="Model">Model</li><br>
-        <li><input name="Price">Price</li><br>
-        <li><input name="ID">ID</li><br>
-        <li><input name="Foto">Foto</li><br>
+        <li><input type="text" name="ID" placeholder="ID">ID</li><br>
+        <li><input type="text"  name="Model" placeholder="Model">Model</li><br>
+        <li><input type="text"  name="Price" placeholder="Price">Price</li><br>
+        <li><input type="image" name="Foto" placeholder="Foto">Foto</li><br>
+        <button class="batt_create">Create</button>
     </form>
-    <button class="batt_create">
-">Create</button>
-</div><div style="
-    width: 75%;
-    display: inline-block;
-    background: gray;
-    height: 100%;
-    vertical-align: top;
-">
+
+</div><div class="deskt2">
     <table border="1">
         <tr>
+            <th>ID</th>
             <th>Model</th>
             <th>Price</th>
-            <th>ID</th>
             <th>Foto</th>
         </tr>
         <tr>
-            <td>avtomobilLegkovoi</td>
-            <td>2500</td>
             <td>1</td>
-            <td><img src="h"></td>
+            <td>Sedan</td>
+            <td>2500</td>
+            <td><img src="..."></td>
         </tr>
         <tr>
-            <td>avtomobilGruz</td>
+            <td>2</td>
+            <td>Jeep</td>
             <td>3000</td>
-            <td>1</td>
-            <td><img src="..."></td>
+            <td><img src=...></td>
         </tr>
     </table></div>
 </body>

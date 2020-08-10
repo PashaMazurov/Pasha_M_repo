@@ -3,17 +3,17 @@
 }
 
 .header {
-    height: 5%; background-color: #a5eaa2; padding: 27px; border: 1px solid;
+    height: 10px; background-color: #d3fad1; padding: 27px; border: 1px solid;
 }
 table {
     border: 1px;  width: 100%;
 }
 .batt_reg {
 
-    width: 100px; padding: 4px; margin: 5px; background-color: blue; border-radius: 20px; float: right;
+    width: 100px; padding: 4px; margin: 5px; background-color: #dcc68a; border-radius: 20px; float: right;
 }
 .batt_log{
-    width: 100px; padding: 4px; margin: 5px; background-color: blue; border-radius: 20px; float: right;
+    width: 100px; padding: 4px; margin: 5px; background-color: #dcc68a; border-radius: 20px; float: right;
 }
 
 .displ {
@@ -21,4 +21,14 @@ table {
 }
 
 .batt_create{
-    width: 100px;  padding: 4px;  margin: 5px;  background-color: blue;  border-radius: 20px;  margin-top: 400px;}
+    width: 100px;  padding: 4px;  margin: 5px;  background-color: #dcc68a;  border-radius: 20px;  margin-top: 10px;}
+
+.deskt1 {
+    display: inline-block; width: 25%;  background-color: #c4f8f8;  height: 100%;
+    vertical-align: top;
+}
+
+
+.deskt2 {
+    width: 75%;  display: inline-block;  background: #f1c1c1;  height: 100%;  vertical-align: top;
+}
